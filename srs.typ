@@ -90,7 +90,7 @@ Revisa todas las reservas de las tres sedes, genera reportes y configura paráme
 Llena el borrador de factura, emite prórrogas (solicitudes para aumentar estadía) y registra consumo de días (salida anticipada). Gestiona la operación directa del huésped.
 
 == Coordinador de ruta
-Maneja el transporte de los huéspedes. Coordina la logística de movilidad de pacientes y acompañantes entre sedes y citas médicas.
+Maneja el transporte de los huéspedes, organizando una planilla de rutas con horarios, arma grupos de huespedes para tranportar y prioriza los traslados según el perfil del paciente (tipo de enfermedad).
 
 == Personal de facturación
 Factura todas las sedes, audita que los borradores llenados por Reservas sean válidos y tiene acceso a todas las reservas para verificar consumos.
@@ -150,11 +150,11 @@ Yo como usuario de reservas quiero registrar consumo de días cuando un huésped
 Yo como usuario de reservas quiero consultar la disponibilidad de habitaciones en tiempo real por sede, para saber si puedo asignar un nuevo huésped o debo derivar a hotel aliado.
 
 == Coordinador de ruta
-#hu[Ver reservas activas]
-Yo como coordinador de ruta quiero consultar las reservas activas del día (huéspedes con citas médicas, horarios de entrada/salida), para planificar las rutas de transporte.
+#hu[Manejar planilla de rutas]
+Yo como coordinador de rutas quiero manejar una planilla de rutas que muestre los traslados programados de los huéspedes (Hora de la cita, origen, destino, nombre del usuario, cantidad de personas), para organizar la logística de transporte.
 
-#hu[Asignar transporte]
-Yo como coordinador de ruta quiero registrar el servicio de transporte asignado a cada huésped (origen, destino, horario, conductor), para llevar control logístico.
+#hu[Exportar a excel]
+Yo como coordinador de ruta quiero exportar la planilla de rutas a un archivo de Excel, para compartir la información con otros departamentos.
 
 == Personal de facturación
 #hu[Acceder a todas las reservas]
