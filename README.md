@@ -37,7 +37,7 @@ Si tienes Typst instalado localmente:
 
 ```bash
 # Compilar a PDF
-typst compilar srs.typ documento.pdf
+typst compile srs.typ documento.pdf
 
 # Ver en modo observador (auto-recarga)
 typst watch srs.typ documento.pdf
